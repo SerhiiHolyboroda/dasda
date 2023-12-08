@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34227.203
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic.Words.Web", "Magic.Words.Web.csproj", "{2A6AAC9F-CAFD-418C-813E-46327D860ECC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA11118A-5AA2-420F-B85D-2BAE97FD74E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic.Words.Shared", "..\Magic.Words.Shared\Magic.Words.Shared.csproj", "{B22EA92C-7F6B-415D-825A-8AC3870C39BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic.Words.Infrastructure", "..\Magic.Words.Infrastructure\Magic.Words.Infrastructure.csproj", "{503E751A-11B9-49C0-8C98-70F9E0565781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic.Words.Core", "..\Magic.Words.Core\Magic.Words.Core.csproj", "{02386E73-A1C0-4221-9522-BA5A6A66C034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic.Words.Application", "..\Magic.Words.Application\Magic.Words.Application.csproj", "{18D56800-EB28-4BC9-9C9E-0F8D77CC2569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A1755BE4-89B2-48E2-AA64-014790702760}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A6AAC9F-CAFD-418C-813E-46327D860ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6AAC9F-CAFD-418C-813E-46327D860ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6AAC9F-CAFD-418C-813E-46327D860ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6AAC9F-CAFD-418C-813E-46327D860ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22EA92C-7F6B-415D-825A-8AC3870C39BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22EA92C-7F6B-415D-825A-8AC3870C39BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22EA92C-7F6B-415D-825A-8AC3870C39BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22EA92C-7F6B-415D-825A-8AC3870C39BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503E751A-11B9-49C0-8C98-70F9E0565781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503E751A-11B9-49C0-8C98-70F9E0565781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503E751A-11B9-49C0-8C98-70F9E0565781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503E751A-11B9-49C0-8C98-70F9E0565781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02386E73-A1C0-4221-9522-BA5A6A66C034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02386E73-A1C0-4221-9522-BA5A6A66C034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02386E73-A1C0-4221-9522-BA5A6A66C034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02386E73-A1C0-4221-9522-BA5A6A66C034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D56800-EB28-4BC9-9C9E-0F8D77CC2569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D56800-EB28-4BC9-9C9E-0F8D77CC2569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D56800-EB28-4BC9-9C9E-0F8D77CC2569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D56800-EB28-4BC9-9C9E-0F8D77CC2569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A6AAC9F-CAFD-418C-813E-46327D860ECC} = {DA11118A-5AA2-420F-B85D-2BAE97FD74E5}
+		{B22EA92C-7F6B-415D-825A-8AC3870C39BD} = {DA11118A-5AA2-420F-B85D-2BAE97FD74E5}
+		{503E751A-11B9-49C0-8C98-70F9E0565781} = {DA11118A-5AA2-420F-B85D-2BAE97FD74E5}
+		{02386E73-A1C0-4221-9522-BA5A6A66C034} = {DA11118A-5AA2-420F-B85D-2BAE97FD74E5}
+		{18D56800-EB28-4BC9-9C9E-0F8D77CC2569} = {DA11118A-5AA2-420F-B85D-2BAE97FD74E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B049EA56-851E-4745-9CF2-9C1B68C61649}
+	EndGlobalSection
+EndGlobal
